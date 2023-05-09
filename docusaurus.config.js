@@ -1,18 +1,18 @@
 const path = require('path')
-const beian = '闽ICP备2020017848号-2'
+const beian = '闽 ICP 备 2020017848 号-2'
 
 const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc" target="_blank">Typescript 全栈最值得学习的技术栈 TRPC</a>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '愧怍的小站',
+  title: '飞鸟书',
   titleDelimiter: '-',
-  url: 'https://kuizuo.cn',
+  url: 'https://docs.offshoreview.xyz',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'StrayBirds',
   projectName: 'blog',
-  tagline: '记录所学知识，领略编程之美',
+  tagline: '记录学习的点点滴滴',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
@@ -31,7 +31,7 @@ const config = {
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向，现在主攻ts全栈',
+        content: '编程爱好者, Web 开发者, 写过爬虫, 学过逆向，现在主攻 ts 全栈',
       },
     ],
     docs: {
@@ -79,15 +79,15 @@ const config = {
           position: 'right',
           items: [
             {
-              label: 'API服务',
+              label: 'API 服务',
               to: 'https://api.kuizuo.cn',
             },
             {
-              label: 'JS代码还原',
+              label: 'JS 代码还原',
               to: 'https://js-de-obfuscator.kuizuo.cn',
             },
             {
-              label: 'CyberChef加密',
+              label: 'CyberChef 加密',
               to: 'https://cipher.kuizuo.cn',
             },
             {
